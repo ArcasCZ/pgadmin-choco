@@ -2,10 +2,10 @@
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'pgadmin4*'
-  fileType      = 'MSI'
+  softwareName  = 'pgadmin 4*'
+  fileType      = 'EXE'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)
-  silentArgs   = '/qn /passive /norestart'
+  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 
 $uninstalled = $false
