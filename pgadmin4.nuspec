@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>pgadmin4</id>
-    <version>7.7.0.20231017</version>
+    <version>8.4.0</version>
     <title>pgAdmin 4</title>
     <authors>The PostgreSQL Global Development Group, Current Maintainer: Dave Page</authors>
     <owners>Devon Hubner, Chris Charabaruk</owners>
@@ -20,7 +20,7 @@ pgAdmin is designed to answer the needs of all users, from writing simple SQL qu
     <bugTrackerUrl>https://github.com/pgadmin-org/pgadmin4/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/pgadmin-org/pgadmin4</projectSourceUrl>
     <packageSourceUrl>https://github.com/ArcasCZ/pgadmin-choco</packageSourceUrl>
-    <copyright>1996-2023 The PostgreSQL Global Development Group</copyright>
+    <copyright>1996-2024 The PostgreSQL Global Development Group</copyright>
     <tags>pgadmin4 pgadmin postgres postgresql admin</tags>
   </metadata>
   <files>
